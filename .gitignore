@@ -1,3 +1,4 @@
+# Original repository rules
 *~
 *.org
 *.pem
@@ -6,3 +7,17 @@
 .DS_Store
 loc.py
 src/ec2
+
+# Python virtual environments
+venv/
+.venv/
+.env/
+myenv/
+
+# Python cache
+__pycache__/
+.pytest_cache/
+
+# IDE settings
+.vscode/
+.idea/
