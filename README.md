@@ -1,9 +1,8 @@
 # Neural Networks and Deep Learning
 
-This repository contains the code samples for Michael Nielsen's book
-[Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com).
-The basic NumPy implementations in `src/network.py` and `src/network2.py` work
-with Python 3.11 and 3.12.
+This repository contains code from Michael Nielsen's book, Neural Networks and Deep Learning and this project is inspired by the Youtube channel 3Blue1Brown.
+
+The original code was written for Python 2, so I updated network.py and network2.py to work with Python 3.11 and 3.12, making it easier to run on modern Python versions and for everyone to implement and make changes on their own. This repo doesn't change the original codes or add any new methods, just making it compatible for everyone's computer 💙
 
 ## Project overview
 
@@ -15,9 +14,9 @@ digits 0 through 9.
 
 The input layer has 784 values. Hidden layers learn patterns such as strokes
 and curves. The final layer has 10 activations; the largest is the predicted
-digit. During **feedforward**, values move from input to output.
-**Backpropagation** calculates how each weight and bias contributed to an
-error. **Stochastic gradient descent (SGD)** applies those gradients to small
+digit. During feedforward, values move from input to output.
+Backpropagation calculates how each weight and bias contributed to an
+error. Stochastic gradient descent (SGD) applies those gradients to small
 random mini-batches, gradually improving predictions.
 
 ## Setup
