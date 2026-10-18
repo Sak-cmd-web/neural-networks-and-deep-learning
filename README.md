@@ -2,7 +2,7 @@
 
 This repository contains code from Michael Nielsen's book, Neural Networks and Deep Learning and this project is inspired by the Youtube channel 3Blue1Brown.
 
-The original code was written for Python 2, so I updated network.py and network2.py to work with Python 3.11 and 3.12 (As it is most stable), making it easier to run on modern Python versions and for everyone to implement and make changes on their own. This repo doesn't change the original codes or add any new methods, just making it compatible for everyone's computer :)
+The original code was written for Python 2, so I updated `network.py` and `network2.py` to work with Python 3.11 and 3.12. I went with these versions since they work well with the libraries used in this project. I didn't add any new methods or change how the neural networks work, just made the code compatible with newer Python versions. :)
 
 ## Project overview
 
